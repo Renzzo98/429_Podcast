@@ -4,7 +4,36 @@ body {
     background: white;
 }
 
-@media (max-width: 667px) {
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+    .homeStyle {
+        height: 50em;
+        padding-top: 10em;
+    }
+
+    .styleName {
+      display:none;
+      height: 70em
+  }
+  
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation: landscape) {
+
+  .styleName {
+      height: 60em
+  }
+  
+}
+
+/* @media (max-width: 667px) {
   .homeStyle {
       height: 50em;
       padding-top: 10em;
@@ -20,7 +49,5 @@ body {
 
 
 @media (max-width: 900px) {
-  .styleName {
-      height: 60em
-  }
-}
+  
+} */
