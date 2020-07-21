@@ -4,14 +4,14 @@ body {
     background: white;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .homeStyle {
       height: 50em;
       padding-top: 10em;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .styleName {
       display:none;
       height: 70em
