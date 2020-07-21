@@ -2,4 +2,25 @@
 
 body {
     background: white;
+}
+
+@media (max-width: 767px) {
+  .homeStyle {
+      height: 50em;
+      padding-top: 10em;
   }
+}
+
+@media (max-width: 767px) {
+  .styleName {
+      display:none;
+      height: 70em
+  }
+}
+
+
+@media (max-width: 900px) {
+  .styleName {
+      height: 60em
+  }
+}

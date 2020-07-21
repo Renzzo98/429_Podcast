@@ -41,7 +41,7 @@ block layout-content
 
         div(class="home")
             div(class="background_image" style="background-image:url(images/header_img.jpg")
-            div(class="home_container")
+            div(class="home_container homeStyle")
                 div(class="container")
                     div(class="row")    
                         dic(class="col")
@@ -54,12 +54,12 @@ block layout-content
                                             a(href="#") Programming
                                         li
                                             a(href="#") Chilling
-                                        li
-                                            a(href="#") Social
-                                        li
-                                            a(href="#") Viral
-                                        li
-                                            a(href="#") Development
+                                        //- li
+                                        //-     a(href="#") Social
+                                        //- li
+                                        //-     a(href="#") Viral
+                                        //- li
+                                        //-     a(href="#") Development
                                 
                                 div(class="home_title")
                                     h1 The 429 Podcast
@@ -74,8 +74,10 @@ block layout-content
                                 //-         li
                                 //-             a(href="#") 0 Comments
                                 
+
                                 div(class="track track_home")
                                     <iframe src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F8908849%2Fplaylist_multi.xml&amp;vjs=1&amp;size=430&amp;skin=8&amp;episode_list_bg=%23ffffff&amp;bg_left=%23000000&amp;bg_mid=%233A2D00&amp;bg_right=%237F5200&amp;podcast_title_color=%23ff9900&amp;episode_title_color=%23ffffff&amp;auto=0&amp;share=1&amp;fonts=Verdana&amp;download=0&amp;rtl=0&amp;show_playlist_recent_number=1" title="The 429 Podcast" width="100%" height="282" scrolling="no" style="border: none;"></iframe>
+                                br
                                 br
                                 br
                                 br
@@ -92,14 +94,34 @@ block layout-content
             div(class="container")
                 div(class="row")
                     div(class="col")
-                        div(class="intro_content text-center")
+                        div(class="intro_content text-center about_container")
                             div(class="section_title text-center")
                                 h1 About Our <span>Podcast</span>
                             div(class="intro_text text-center")
+                                br
                                 p From Video Games to Javascript Framework, Join 3 close buddies as we handle to tackle a range of technology topics and have fun doing it. Grab a beer, get some snacks, and launch your favorite IDE as we discuss these topics together like a couple of buddies at a bar. 
+                                br
                                 strong Uploads Weekly on Sundays
-                            div(class="button_fill intro_button")
-                                a(href="#") read more
+                            br
+                            br
+                            br
+                            div(class="about" style="padding-top: 0px; ")
+                                div(class="social" style="display: contents;")
+                                    ul(class="d-flex flex-row align-items-center justify-content-center")
+                                        li
+                                            a(href="https://podcasts.apple.com/us/podcast/the-429-podcast/id1521187574")
+                                                i(class="fa fa-podcast" aria-hidden="true")
+                                        li
+                                            a(href="https://open.spotify.com/show/7cvVe7uJ7ilI6WSsGqSKBv?si=m4h-XJPATES7XDNkdvEecw")
+                                                i(class="fab fa-spotify" aria-hidden="true")
+                                        li
+                                            a(href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3RoZTQyOXBvZGNhc3QvZmVlZC54bWw")
+                                                i(class="fab fa-google" aria-hidden="true")
+                                        li
+                                            a(href="https://www.youtube.com/channel/UC54q5_DH3OtLLby6hPsiW8A")
+                                                i(class="fab fa-youtube" aria-hidden="true")
+                            //- div(class="button_fill intro_button")
+                            //-     a(href="#") read more
                             
 
         // Milestones
@@ -156,32 +178,20 @@ block layout-content
 
         // About 
 
-        div(class="about")
+        div(class="about styleName")
             div(class="container")
                 div(class="row")
                     div(class="col")    
-                        div(class="about_container d-flex flex-lg-row flex-column align-items-start justify-content-start")
+                        div(class="about_container d-flex flex-lg-row align-items-start justify-content-start")
                             div(class="about_content")
                                 div(class="section_title")
                                     h1 About Us
                                 div(class="about_text")
                                     p Three Grads, Three Developers, and Three Buddies who just wanted to share their insights, thoughts, and experiences with a range of topics. From sharing our love for Apple Product, to discuss the complexity of Cyber Security, to just talking about Video Games, we wanted to share our conversations and thoughts with the world and have you join in our research, talks and even arguments. In the end, we're just three buddies who love to talk about nerdy tech topics and want everyone to learn and chill with us like if you're our 4th buddy. So grab a drink, sit back, and welcome to the 429 Podcast!
-                                div(class="social")
-                                    ul(class="d-flex flex-row align-items-start justify-content-start")
-                                        li
-                                            a(href="#")
-                                                i(class="fa fa-facebook" aria-hidden="true")
-                                        li
-                                            a(href="#")
-                                                i(class="fa fa-twitter" aria-hidden="true")
-                                        li
-                                            a(href="#")
-                                                i(class="fa fa-instagram" aria-hidden="true")
-                                        li
-                                            a(href="#")
-                                                i(class="fa fa-youtube-play" aria-hidden="true")
-                            div(class="about_image")
-                                img(src="images/headphone_img.png" style="margin-left: 50px")
+                            div(class="about_image" style="width: 20em; height:30em")
+                                img(src="images/headphone_img.png" style="margin-left: 50px;")
+                            br
+                            br
                                 
 
 
