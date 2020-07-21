@@ -1,0 +1,191 @@
+extends layout
+
+block layout-content
+    div.super_container
+        
+        // Header Section
+        include partials/header.pug
+
+
+        //- // Menu
+
+        //- div(class="menu")
+        //-     div(class="menu_content d-flex flex-column align-items-end justify-content-start")
+        //-         ul(class="menu_nav_list text-right")
+        //-             li
+        //-                 a(href="#") Home
+        //-             li
+        //-                 a(href="#") About
+        //-             li
+        //-                 a(href="#") Contact
+                
+        //-         div(class="menu_extra d-flex flex-column align-items-end justify-content-start")
+        //-             div(class="social")
+        //-                 ul(class="d-flex flex-row align-items-start justify-content-start")
+        //-                 li
+        //-                     a(href="#")
+        //-                         i(class="fa fa-facebook" aria-hidden="true")
+        //-                 li
+        //-                     a(href="#")
+        //-                         i(class="fa fa-twitter" aria-hidden="true")
+        //-                 li
+        //-                     a(href="#")
+        //-                         i(class="fa fa-instagram" aria-hidden="true")
+        //-                 li
+        //-                     a(href="#")
+        //-                         i(class="fa fa-youtube-play" aria-hidden="true")
+
+        
+        // Home
+
+
+        div(class="home")
+            div(class="background_image" style="background-image:url(images/header_img.jpg")
+            div(class="home_container")
+                div(class="container")
+                    div(class="row")    
+                        dic(class="col")
+                            div(class="home_content")
+                                div(class="tags")
+                                    ul(class="d-flex flex-row align-items-start justify-content-start")
+                                        li
+                                            a(href="#") Technology
+                                        li
+                                            a(href="#") Programming
+                                        li
+                                            a(href="#") Chilling
+                                        li
+                                            a(href="#") Social
+                                        li
+                                            a(href="#") Viral
+                                        li
+                                            a(href="#") Development
+                                
+                                div(class="home_title")
+                                    h1 The 429 Podcast
+                                div(class="home_subtitle") Checkout the latest episode and leave us a comment
+                                //- div(class="track_info")
+                                //-     ul(class="d-flex flex-row align-items-start justify-content-start")
+                                //-         li
+                                //-             a(href="#") September 24, 2020
+                                //-         li
+                                //-             a(href="#") Music
+                                //-         li 56:43
+                                //-         li
+                                //-             a(href="#") 0 Comments
+                                
+                                div(class="track track_home")
+                                    <iframe src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F8908849%2Fplaylist_multi.xml&amp;vjs=1&amp;size=430&amp;skin=8&amp;episode_list_bg=%23ffffff&amp;bg_left=%23000000&amp;bg_mid=%233A2D00&amp;bg_right=%237F5200&amp;podcast_title_color=%23ff9900&amp;episode_title_color=%23ffffff&amp;auto=0&amp;share=1&amp;fonts=Verdana&amp;download=0&amp;rtl=0&amp;show_playlist_recent_number=1" title="The 429 Podcast" width="100%" height="282" scrolling="no" style="border: none;"></iframe>
+                                br
+                                br
+                                br
+                                br
+                                br
+                                div(class="button_border home_button trans_200")
+                                    a(href="https://the429podcast.podbean.com/") More Info
+
+
+        
+        // Intro
+
+        div(class="intro")
+            div(class="container")
+                div(class="row")
+                    div(class="col")
+                        div(class="intro_content text-center")
+                            div(class="section_title text-center")
+                                h1 About Our <span>Podcast</span>
+                            div(class="intro_text text-center")
+                                p From Video Games to Javascript Framework, Join 3 close buddies as we handle to tackle a range of technology topics and have fun doing it. Grab a beer, get some snacks, and launch your favorite IDE as we discuss these topics together like a couple of buddies at a bar. 
+                                strong Uploads Weekly on Sundays
+                            div(class="button_fill intro_button")
+                                a(href="#") read more
+                            
+
+        // Milestones
+
+        div(class="milestones")
+            div(class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/milestone_img.jpg" data-speed="0.8")
+            div(class="container")
+                div(class="row")
+                    div(class="col")
+                        div(class="section_title light text-center")
+                            h1 Fun Facts
+                
+                div(class="row milestones_row")
+
+                    // Milestone
+                    div(class="col-xl-3 col-md-6")
+                        div(class="milestone text-center")
+                            div(class="milestone_content ml-auto mr-auto")
+                                div(class="milestone_counter" data-end-value="6") 0
+                                div(class="milestone_icon")
+                                    img(src="images/microphone-alt-solid.svg" alt="https://www.flaticon.com/authors/smashicons")
+                            div(class="milestone_title") Recorded Hours
+
+                    
+                    // Milestone
+                    div(class="col-xl-3 col-md-6")
+                        div(class="milestone text-center")
+                            div(class="milestone_content ml-auto mr-auto")
+                                div(class="milestone_counter" data-end-value="4") 0
+                                div(class="milestone_icon")
+                                    img(src="images/speaker.svg" alt="https://www.flaticon.com/authors/smashicons")
+                            div(class="milestone_title") Audio Episodes
+
+                    
+                    // Milestone
+                    div(class="col-xl-3 col-md-6")
+                        div(class="milestone text-center")
+                            div(class="milestone_content ml-auto mr-auto")
+                                div(class="milestone_counter" data-end-value="120") 0
+                                div(class="milestone_icon")
+                                    img(src="images/glass-whiskey-solid.svg" alt="https://www.flaticon.com/authors/smashicons")
+                            div(class="milestone_title") Water Bottles Drank
+
+
+                    // Milestone
+                    div(class="col-xl-3 col-md-6")
+                        div(class="milestone text-center")
+                            div(class="milestone_content ml-auto mr-auto")
+                                div(class="milestone_counter" data-end-value="429") 0
+                                div(class="milestone_icon")
+                                    img(src="images/exclamation-triangle-solid.svg" alt="https://www.flaticon.com/authors/smashicons")
+                            div(class="milestone_title") Technical Issues Faced
+
+
+        // About 
+
+        div(class="about")
+            div(class="container")
+                div(class="row")
+                    div(class="col")    
+                        div(class="about_container d-flex flex-lg-row flex-column align-items-start justify-content-start")
+                            div(class="about_content")
+                                div(class="section_title")
+                                    h1 About Us
+                                div(class="about_text")
+                                    p Three Grads, Three Developers, and Three Buddies who just wanted to share their insights, thoughts, and experiences with a range of topics. From sharing our love for Apple Product, to discuss the complexity of Cyber Security, to just talking about Video Games, we wanted to share our conversations and thoughts with the world and have you join in our research, talks and even arguments. In the end, we're just three buddies who love to talk about nerdy tech topics and want everyone to learn and chill with us like if you're our 4th buddy. So grab a drink, sit back, and welcome to the 429 Podcast!
+                                div(class="social")
+                                    ul(class="d-flex flex-row align-items-start justify-content-start")
+                                        li
+                                            a(href="#")
+                                                i(class="fa fa-facebook" aria-hidden="true")
+                                        li
+                                            a(href="#")
+                                                i(class="fa fa-twitter" aria-hidden="true")
+                                        li
+                                            a(href="#")
+                                                i(class="fa fa-instagram" aria-hidden="true")
+                                        li
+                                            a(href="#")
+                                                i(class="fa fa-youtube-play" aria-hidden="true")
+                            div(class="about_image")
+                                img(src="images/headphone_img.png" style="margin-left: 50px")
+                                
+
+
+
+
+        // Footer Section
+        include partials/footer.pug

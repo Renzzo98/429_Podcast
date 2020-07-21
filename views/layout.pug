@@ -1,0 +1,51 @@
+block variables
+doctype html
+html
+    head
+        title #{title} | TEMPLATE
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Comptible" content="IE=edge")
+        link(rel="shortcut icon", href="/favicon.ico")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")        
+        link(rel="stylesheet" href="/style.css")
+        link(rel="stylesheet" type="text/css" href="/css/bootstrap-4.1.2/bootstrap.min.css")
+        link(rel="stylesheet" type="text/css" href="/css/font-awesome-4.7.0/css/font-awesome.min.css")
+        link(rel="stylesheet" type="text/css" href="/css/colorbox/colorbox.css")
+        link(rel="stylesheet" type="text/css" href="/css/about.css")
+        link(rel="stylesheet" type="text/css" href="/css/main_styles.css")
+        link(rel="stylesheet" type="text/css" href="/css/responsive.css")
+
+    body
+        div#root
+            block layout-content
+
+    footer
+
+        script
+            include ../assets/js/jquery-3.3.1.min.js
+        script
+            include ../assets/js/bootstrap-4.1.2/popper.js
+        script
+            include ../assets/js/bootstrap-4.1.2/bootstrap.min.js
+        script
+            include ../assets/js/greensock/TweenMax.min.js
+        script
+            include ../assets/js/greensock/TimelineMax.min.js
+        script
+            include ../assets/js/scrollmagic/ScrollMagic.min.js
+        script
+            include ../assets/js/greensock/animation.gsap.min.js
+        script
+            include ../assets/js/greensock/ScrollToPlugin.min.js
+        script
+            include ../assets/js/easing/easing.js
+        script
+            include ../assets/js/colorbox/jquery.colorbox-min.js
+        script
+            include ../assets/js/progressbar/progressbar.min.js
+        script
+            include ../assets/js/parallax-js-master/parallax.min.js
+        script
+            include ../assets/js/custom.js
+        script
+            include ../assets/js/about.js

@@ -1,0 +1,118 @@
+extends layout_about
+
+block layout-content
+    div.super_container
+        
+        // Header Section
+        include partials/header.pug
+
+        
+        // Home
+
+        div(class="home")
+            div(class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8")
+            div(class="home_container d-flex flex-column align-items-center justify-content-center")
+                div(class="home_content")
+                    div(class="home_title")
+                        h1 About
+        
+        // Intro
+
+        div(class="intro")
+            div(class="container")
+                div(class="row")
+                    div(class="col")
+                        div(class="intro_content text-center")
+                            div(class="section_title text-center")
+                                h1 About my <span>podcast</span>
+                            div(class="intro_text text-center")
+                                p afsssadsd s sdfsdfsdfsdfdsf sfsedsfds fsdfdsfdsfdsfsdf sd
+                            div(class="button_fill intro_button")
+                                a(href="#") read more
+                            
+
+        // Milestones
+
+        div(class="milestones")
+            div(class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/milestones.jpg" data-speed="0.8")
+            div(class="container")
+                div(class="row")
+                    div(class="col")
+                        div(class="section_title light text-center")
+                            h1 Fun Facts
+                
+                div(class="row milestones_row")
+
+                    // Milestone
+                    div(class="col-xl-3 col-md-6")
+                        div(class="milestone text-center")
+                            div(class="milestone_content ml-auto mr-auto")
+                                div(class="milestone_counter" data-end-value="20200") 0
+                                div(class="milestone_icon")
+                                    img(src="images/alarm-clock.svg" alt="https://www.flaticon.com/authors/smashicons")
+                            div(class="milestone_title") Streamed Hours
+
+                    
+                    // Milestone
+                    div(class="col-xl-3 col-md-6")
+                        div(class="milestone text-center")
+                            div(class="milestone_content ml-auto mr-auto")
+                                div(class="milestone_counter" data-end-value="4") 0
+                                div(class="milestone_icon")
+                                    img(src="images/speaker.svg" alt="https://www.flaticon.com/authors/smashicons")
+                            div(class="milestone_title") Audio Episodes
+
+
+                    // Milestone
+                    div(class="col-xl-3 col-md-6")
+                        div(class="milestone text-center")
+                            div(class="milestone_content ml-auto mr-auto")
+                                div(class="milestone_counter" data-end-value="2132") 0
+                                div(class="milestone_icon")
+                                    img(src="images/alarm-clock.svg" alt="https://www.flaticon.com/authors/smashicons")
+                            div(class="milestone_title") Examples
+
+                    
+                    // Milestone
+                    div(class="col-xl-3 col-md-6")
+                        div(class="milestone text-center")
+                            div(class="milestone_content ml-auto mr-auto")
+                                div(class="milestone_counter" data-end-value="940000") 0
+                                div(class="milestone_icon")
+                                    img(src="images/alarm-clock.svg" alt="https://www.flaticon.com/authors/smashicons")
+                            div(class="milestone_title") Example 2
+
+
+        // About 
+
+        div(class="about")
+            div(class="container")
+                div(class="row")
+                    div(class="col")    
+                        div(class="about_container d-flex flex-lg-row flex-column align-items-start justify-content-start")
+                            div(class="about_content")
+                                div(class="section_title")
+                                    h1 About Me
+                                div(class="about_text")
+                                    p adadsadasd asdasdasdasd asdsad
+                                div(class="social")
+                                    ul(class="d-flex flex-row align-items-start justify-content-start")
+                                        li
+                                            a(href="#")
+                                                i(class="fa fa-facebook" aria-hidden="true")
+                                        li
+                                            a(href="#")
+                                                i(class="fa fa-twitter" aria-hidden="true")
+                                        li
+                                            a(href="#")
+                                                i(class="fa fa-instagram" aria-hidden="true")
+                                        li
+                                            a(href="#")
+                                                i(class="fa fa-youtube-play" aria-hidden="true")
+                            div(class="about_image")
+                                img(src="images/man.png")
+                                
+
+
+        // Footer Section
+        include partials/footer.pug
