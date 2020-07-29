@@ -24,6 +24,10 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "express-promise-router": "^4.0.1",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.0",
+    "pug": "^2.0.4",
+    "rss-parser": "^3.9.0"
   }
 }

@@ -4,20 +4,30 @@ body {
     background: white;
 }
 
+.homeStyle {
+  padding-top: 0em;
+  top: 20% !important;
+}
+
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
 
     .homeStyle {
-        height: 50em;
-        padding-top: 10em;
+      height: 50em;
+      padding-top: 5em;
+      top: 55% !important;
     }
 
     .styleName {
       display:none;
       height: 70em
-  }
+    }
+
+    .home_button{
+      margin-top: 5em !important;
+    }
   
 }
 
