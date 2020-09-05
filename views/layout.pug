@@ -13,7 +13,14 @@ html
         link(rel="stylesheet" type="text/css" href="/css/about.css")
         link(rel="stylesheet" type="text/css" href="/css/main_styles.css")
         link(rel="stylesheet" type="text/css" href="/css/responsive.css")
+        script(async src="https://www.googletagmanager.com/gtag/js?id=UA-177309489-1")
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
+            gtag('config', 'UA-177309489-1');
+        </script>
     body
         div#root
             block layout-content
