@@ -9,15 +9,6 @@ body {
   top: 20% !important;
 }
 
-.header_SM {
-  padding: 0.2em 2em;
-  color: white;
-}
-
-.header_MI {
-  padding: 0.5em 5em 0 0;
-  color: white;
-}
 
 @media only screen 
     and (device-width : 375px) 
