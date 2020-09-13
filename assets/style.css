@@ -53,6 +53,25 @@ body {
   padding: 20px;
 }
 
+@media screen and (max-height: 1440px) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+
+  .styleName {
+    height: 45em
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+  .headphone_img {
+    margin-top: 3em;
+  }
+
+}
+
 @media screen and (max-height: 1366px) {
   /* .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;} */
@@ -104,6 +123,26 @@ body {
 
 }
 
+@media screen and (max-height: 899px) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 150em;
+    padding-top: 55em;
+    top: 55% !important;
+  }
+
+  .styleName {
+    display:none;
+    /* /height: 100em */
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
 
 @media screen and (max-height: 859px) {
   /* .sidenav {padding-top: 15px;}
