@@ -53,10 +53,99 @@ body {
   padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (max-height: 1366px) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+
+  .styleName {
+    height: 45em
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+  .headphone_img {
+    margin-top: 3em;
+  }
+
+}
+
+@media screen and (device-height: 1024px) {
+
+  .styleName {
+    height: 60em !important
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+  }
+
+}
+
+
+@media screen and (max-height: 1024px) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+
+  .styleName {
+    height: 40em
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+
+@media screen and (max-height: 859px) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 150em;
+    padding-top: 55em;
+    top: 55% !important;
+  }
+
+  .styleName {
+    display:none;
+    /* /height: 100em */
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+
+@media screen and (max-height: 811px) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 40em;
+    top: 55% !important;
+  }
+
+  .styleName {
+    display:none;
+    /* /height: 100em */
+  }
+
+  .home_button{
+    margin-top: 1em !important;
+  }
+
 }
 
 @media only screen 
@@ -91,6 +180,51 @@ body {
       height: 60em
   }
   
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 650px) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 40em;
+    top: 55% !important;
+  }
+
+  .styleName {
+    display:none;
+    /* /height: 100em */
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+@media screen and (device-height: 568px) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 130em;
+    padding-top: 52em;
+    top: 55% !important;
+  }
+
+  .styleName {
+    display:none;
+    /* /height: 100em */
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
 }
 
 /* @media (max-width: 667px) {
