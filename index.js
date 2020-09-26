@@ -6,13 +6,28 @@
 
 const express = require("express");
 const path = require("path");
+const fs = require('fs');
+const http = require('http');
+const https = require('https');
 
 /**
  * App Variables
  */
 
 const app = express();
-const port = process.env.PORT || "8000";
+const port = process.env.PORT || "80";
+
+
+// Certificate
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/the429podcast.com/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/the429podcast.com/cert.pem', 'utf8');
+const ca = fs.readFileSync('/etc/letsencrypt/live/the429podcast.com/chain.pem', 'utf8');
+
+const credentials = {
+	key: privateKey,
+	cert: certificate,
+	ca: ca
+};
 
 /**
  *  App Configuration
@@ -26,19 +41,23 @@ app.use(express.static(path.join(__dirname, "assets")));
  * Routes Definitions
  */
 
+app.use('/', require('./routes/index'));
 
-app.get("/", (req, res) => {
-  res.render("index", { title: "Home" });
-});
 
-app.get("/about", (req, res) => {
-  res.render("about", { title: "About" });
-});
 
 /**
  * Server Activation
  */
 
-app.listen(port, () => {
-    console.log(`Listening to requests on http://localhost:${port}`);
-  });
+ // Starting both http & https servers
+const httpServer = http.createServer(app);
+const httpsServer = https.createServer(credentials, app);
+
+
+httpServer.listen(80, () => {
+  console.log('HTTP Server running on port 80');
+});
+
+httpsServer.listen(443, () => {
+  console.log('HTTPS Server running on port 443');
+});
