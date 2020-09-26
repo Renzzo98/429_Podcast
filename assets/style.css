@@ -87,6 +87,7 @@ body {
 
   .headphone_img {
     margin-top: 3em;
+    margin-left: 5em;
   }
 
 }
@@ -94,7 +95,7 @@ body {
 @media screen and (device-height: 1024px) {
 
   .styleName {
-    height: 60em !important
+    height: 60em;
   }
 
   .home_button{
@@ -123,6 +124,28 @@ body {
 
 }
 
+@media screen and (max-height: 899px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 150em;
+    padding-top: 0em;
+    top: 55% !important;
+  }
+
+  .styleName {
+    display:none;
+    /* /height: 100em */
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+
 @media screen and (max-height: 899px) {
   /* .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;} */
@@ -143,6 +166,7 @@ body {
   }
 
 }
+
 
 @media screen and (max-height: 859px) {
   /* .sidenav {padding-top: 15px;}
@@ -222,9 +246,8 @@ body {
 }
 
 
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 650px)  {
   /* .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;} */
 
@@ -244,6 +267,313 @@ body {
   }
 
 }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 1025px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: grid;
+    height: 45em;
+  }
+
+  .headphone_img {
+    margin-top: 2em;
+    margin-left: 6em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 780px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: grid;
+    height: 45em;
+  }
+
+  .headphone_img {
+    margin-top: 5em;
+    margin-left: 5em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 650px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: grid;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 540px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: none;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 415px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: none;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 412px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: grid;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 380px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: none;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (device-height: 375px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: block;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 330px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 40em;
+    top: 50% !important;
+  }
+
+  .home {
+    display: none;
+  }
+
+  .styleName {
+    display: none;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+@media screen and (device-height: 411px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: none;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
+@media screen and (device-height: 360px) and (orientation: landscape) {
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+
+  .homeStyle {
+    height: 120em;
+    padding-top: 0em;
+    top: 20% !important;
+  }
+
+  .styleName {
+    display: none;
+    height: 55em;
+  }
+
+  .headphone_img {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
+
+  .home_button{
+    margin-top: 2em !important;
+  }
+
+}
+
 
 @media screen and (device-height: 568px) {
   /* .sidenav {padding-top: 15px;}
